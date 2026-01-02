@@ -22,6 +22,7 @@ This repo contains code and a short paper on cross-work authorship attribution f
 6. Build figures/tables used in the paper
 
 > Note: Results depend on the exact corpus versions, random seeds, and filtering thresholds.
+> Note: Not all notebook cells are executed with saved outputs. Some experiments require GPU access, which may not be available by default on Colab or Kaggle; users are expected to rerun the notebooks in their own environment to reproduce full results.
 
 ## Dependencies
 - Python 3.8+
