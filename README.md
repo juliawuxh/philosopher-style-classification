@@ -1,7 +1,7 @@
 # philosopher-style-classification
 
 
-This repo contains code and a short paper on cross-work authorship attribution for philosophical texts. I fine-tune a DistilBERT classifier to distinguish **Immanuel Kant** vs **Friedrich Nietzsche** using **English translations** (Project Gutenberg), evaluate generalization on **held-out books**, and test whether performance persists under **semantic control** (topic modeling + embedding similarity). I also run a small **LIME** interpretability analysis to inspect token-level drivers of predictions.
+This repo contains code and a short paper on cross-work authorship attribution for philosophical texts. I fine-tune a DistilBERT classifier to distinguish between **Immanuel Kant** vs **Friedrich Nietzsche**'s writings and test whether performance persists under **semantic control** (topic modeling + embedding similarity). I also run a small **LIME** interpretability analysis to inspect token-level drivers of predictions.
 
 ## What’s in here
 - **Data prep**: Gutenberg cleaning + token chunking (125 tokens)
